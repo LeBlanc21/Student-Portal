@@ -201,3 +201,35 @@ footer {
   color: var(--muted);
   font-size: 0.85rem;
 }
+
+.rewards {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+  display: grid;
+  gap: 10px;
+}
+.reward {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  background: var(--bg);
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+.reward strong {
+  display: block;
+}
+.reward span {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.reward button {
+  padding: 9px 16px;
+}
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
